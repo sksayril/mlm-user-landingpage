@@ -21,7 +21,7 @@ const Testimonials = () => {
       image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       rating: 5,
       text: 'Best side income ever! I can work from home and still earn more than my regular job. Highly recommend For Life Trading India.',
-      income: '₹25,000',
+      income: '₹25,000 ($290.50)',
       timeframe: '2 months'
     },
     {
@@ -230,7 +230,7 @@ const Testimonials = () => {
           {[
             { label: 'Happy Members', value: '12,000+', icon: '😊' },
             { label: 'Success Stories', value: '5,000+', icon: '🎉' },
-            { label: 'Average Monthly Earning', value: '₹25,000', icon: '💰' }
+            { label: 'Average Monthly Earning', value: '₹25,000 ($290.50)', icon: '💰' }
           ].map((stat, index) => (
             <motion.div
               key={stat.label}

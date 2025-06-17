@@ -16,8 +16,7 @@ const RankRewards = () => {
     {
       icon: Award,
       name: 'Bronze',
-      requirement: '20 Members',
-      reward: '₹500 + ID Card',
+      requirement: '20 Members',      reward: '₹500 ($5.81) + ID Card',
       color: 'from-amber-600 to-yellow-700',
       bgColor: 'from-amber-50 to-yellow-50',
       borderColor: 'border-amber-200'
@@ -26,7 +25,7 @@ const RankRewards = () => {
       icon: Star,
       name: 'Silver',
       requirement: '50 Members',
-      reward: '₹1,000 + Bag',
+      reward: '₹1,000 ($11.62) + Bag',
       color: 'from-gray-400 to-gray-600',
       bgColor: 'from-gray-50 to-slate-50',
       borderColor: 'border-gray-200'
@@ -35,7 +34,7 @@ const RankRewards = () => {
       icon: Trophy,
       name: 'Gold',
       requirement: '100 Members',
-      reward: '₹2,500 + Phone',
+      reward: '₹2,500 ($29.05) + Phone',
       color: 'from-yellow-400 to-orange-500',
       bgColor: 'from-yellow-50 to-orange-50',
       borderColor: 'border-yellow-200'
@@ -44,7 +43,7 @@ const RankRewards = () => {
       icon: Gem,
       name: 'Ruby',
       requirement: '200 Members',
-      reward: '₹10,000 + Tour',
+      reward: '₹10,000 ($116.20) Mobile Phone + Tour',
       color: 'from-red-500 to-pink-600',
       bgColor: 'from-red-50 to-pink-50',
       borderColor: 'border-red-200'
@@ -52,17 +51,25 @@ const RankRewards = () => {
     {
       icon: Crown,
       name: 'Diamond',
-      requirement: '400 Members',
-      reward: '₹15,000 + India Tour',
+      requirement: '400 Members',      reward: '₹15,000 ($174.30) + India Tour',
       color: 'from-blue-400 to-cyan-500',
       bgColor: 'from-blue-50 to-cyan-50',
       borderColor: 'border-blue-200'
     },
     {
+      icon: Gem,
+      name: 'Platinum',
+      requirement: '800 Members',
+      reward: '₹25,000 ($290.50) + INTERNATIONAL TOR',
+      color: 'from-red-500 to-pink-600',
+      bgColor: 'from-red-50 to-pink-50',
+      borderColor: 'border-red-200'
+    },
+    {
       icon: Car,
       name: 'King',
       requirement: '1600 Members',
-      reward: '₹60,000 + Bike + International Tour',
+      reward: '₹60,000 ($697.20) + Bike + International Tour',
       color: 'from-purple-500 to-indigo-600',
       bgColor: 'from-purple-50 to-indigo-50',
       borderColor: 'border-purple-200'
@@ -107,9 +114,9 @@ const RankRewards = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Rank{' '}
+            Award{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
-              Rewards
+              And Rewards
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

@@ -50,7 +50,7 @@ const Header = () => {
             <span className={`text-xl font-bold ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              For Life Trading India
+              FOR LIFE TREDING INDIA PVT LTD
             </span>
           </motion.div>
 

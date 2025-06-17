@@ -90,7 +90,7 @@ const Footer = () => {
               
               <p className="text-gray-300 mb-6 leading-relaxed">
                 India's fastest growing drop-shipping & FX trading platform. 
-                Build your financial future with multiple income streams starting at just ₹499.
+                Build your financial future with multiple income streams starting at just ₹499 - $20 .
               </p>
 
               {/* Social Links */}
@@ -173,8 +173,8 @@ const Footer = () => {
                 <div className="flex items-start space-x-3">
                   <MapPin className="h-5 w-5 text-sky-400 mt-1 flex-shrink-0" />
                   <div className="text-gray-300">
-                    <p>Mumbai, Maharashtra</p>
-                    <p>India - 400001</p>
+                    <p>Mumbai, Maharastra , AHMEDNAGAR  </p>
+                    <p>India - 414001</p>
                   </div>
                 </div>
                 
@@ -189,6 +189,12 @@ const Footer = () => {
                   <Mail className="h-5 w-5 text-sky-400 flex-shrink-0" />
                   <a href="mailto:support@forlifetredingindia.life" className="text-gray-300 hover:text-sky-400 transition-colors">
                     support@forlifetredingindia.life
+                  </a>
+                </div>
+                
+                 <div className="flex items-center space-x-3">
+                      <a href="tel:+919876543210" className="text-gray-300 hover:text-sky-400 transition-colors">
+                   C/O Sabita Khatun & Md Maminur Islam
                   </a>
                 </div>
               </div>
@@ -229,7 +235,7 @@ const Footer = () => {
             
             <div className="flex items-center space-x-4">
               <p className="text-gray-400 text-sm">
-                Made with ❤️ in India
+                Made with ❤️ CCT
               </p>
               
               {/* Scroll to Top Button */}

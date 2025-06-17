@@ -18,8 +18,8 @@ const HowItWorks = () => {
     },
     {
       icon: CreditCard,
-      title: 'Pay ₹499',
-      description: 'Make your one-time investment of just ₹499 to activate your account',
+      title: 'Pay ₹499 - $20',
+      description: 'Make your one-time investment of just ₹499 - $20 to activate your account',
       step: '2'
     },
     {
@@ -36,7 +36,7 @@ const HowItWorks = () => {
     },
     {
       icon: Wallet,
-      title: 'Withdraw ₹150+',
+      title: 'Withdraw ₹150 + $1.74',
       description: 'Withdraw your earnings instantly once you reach the minimum threshold',
       step: '5'
     }
@@ -190,7 +190,7 @@ const HowItWorks = () => {
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
           >
-            Get Started Now - Only ₹499
+            Get Started Now - Only ₹499 - $20
           </motion.button>
         </motion.div>
       </div>

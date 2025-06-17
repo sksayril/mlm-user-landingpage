@@ -161,8 +161,7 @@ const HeroSection = () => {
                 <div className="text-2xl font-bold text-white">12K+</div>
                 <div className="text-white/70 text-sm">Active Users</div>
               </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-white">₹24L+</div>
+              <div className="text-center">                <div className="text-2xl font-bold text-white">₹24L+ ($27.9K+)</div>
                 <div className="text-white/70 text-sm">Paid Out</div>
               </div>
               <div className="text-center">
@@ -265,11 +264,11 @@ const HeroSection = () => {
                   <div className="grid grid-cols-2 gap-3">
                     <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-3 rounded-lg">
                       <div className="text-xs text-gray-600">Today</div>
-                      <div className="text-lg font-bold text-green-600">₹2,450</div>
+                      <div className="text-lg font-bold text-green-600">₹210925 - $2,450</div>
                     </div>
                     <div className="bg-gradient-to-r from-blue-50 to-sky-50 p-3 rounded-lg">
                       <div className="text-xs text-gray-600">Team Bonus</div>
-                      <div className="text-lg font-bold text-blue-600">₹1,200</div>
+                      <div className="text-lg font-bold text-blue-600"> ₹103310 - $1,200</div>
                     </div>
                   </div>
                 </div>
@@ -280,8 +279,7 @@ const HeroSection = () => {
                 className="absolute -top-4 -right-4 bg-yellow-400 text-yellow-900 px-3 py-2 rounded-full text-sm font-bold shadow-lg"
                 animate={{ y: [-5, 5, -5] }}
                 transition={{ duration: 2, repeat: Infinity }}
-              >
-                ₹499 Only!
+              >                ₹499 ($5.80) Only!
               </motion.div>
               <motion.div
                 className="absolute -bottom-4 -left-4 bg-green-400 text-green-900 px-3 py-2 rounded-full text-sm font-bold shadow-lg"

@@ -52,7 +52,7 @@ const LiveStats = () => {
     {
       icon: DollarSign,
       label: 'Total Paid Out',
-      value: `₹${(stats.paidOut / 100000).toFixed(1)}L`,
+      value: `$${(stats.paidOut / 100000).toFixed(1)}L`,
       color: 'from-green-500 to-emerald-500',
       bgColor: 'from-green-50 to-emerald-50'
     },
@@ -66,7 +66,7 @@ const LiveStats = () => {
     {
       icon: TrendingUp,
       label: 'Daily Earnings',
-      value: `₹${(stats.dailyEarnings / 1000).toFixed(0)}K`,
+      value: `$${(stats.dailyEarnings / 1000).toFixed(0)}K`,
       color: 'from-orange-500 to-red-500',
       bgColor: 'from-orange-50 to-red-50'
     }

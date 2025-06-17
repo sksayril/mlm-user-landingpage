@@ -27,6 +27,10 @@ const Header = () => {
     { name: 'Contact', path: '#contact' }
   ];
 
+  const handleRedirect = () => {
+    window.open('http://dashboard.forlifetradingindia.life/', '_blank');
+  };
+
   return (
     <motion.header
       initial={{ y: -100 }}
@@ -85,6 +89,7 @@ const Header = () => {
               }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={handleRedirect}
             >
               Login
             </motion.button>
@@ -92,6 +97,7 @@ const Header = () => {
               className="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-6 py-2 rounded-lg text-sm font-medium hover:from-sky-600 hover:to-blue-700 transition-all shadow-lg"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
+              onClick={handleRedirect}
             >
               Join Now
             </motion.button>
@@ -128,10 +134,16 @@ const Header = () => {
                 </Link>
               ))}
               <div className="pt-4 space-y-2">
-                <button className="block w-full text-left text-gray-700 hover:text-sky-600 font-medium">
+                <button 
+                  className="block w-full text-left text-gray-700 hover:text-sky-600 font-medium"
+                  onClick={handleRedirect}
+                >
                   Login
                 </button>
-                <button className="w-full bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-2 rounded-lg font-medium">
+                <button 
+                  className="w-full bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-2 rounded-lg font-medium"
+                  onClick={handleRedirect}
+                >
                   Join Now
                 </button>
               </div>
